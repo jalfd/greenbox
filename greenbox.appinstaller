@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
+    Version="1.0.0.0"
+    Uri="https://jalfd.github.io/greenbox/greenbox.appinstaller" >
+
+    <MainPackage
+        Name="VitalImages.GreenBox"
+        Publisher="CN=VitalImages, O=VitalImages"
+        Version="1.0.0.5"
+        Uri="https://jalfd.github.io/greenbox/greenbox.msix" />
+
+    <UpdateSettings>
+        <OnLaunch HoursBetweenUpdateChecks="0"/>   
+    </UpdateSettings>
+
+</AppInstaller>
